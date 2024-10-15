@@ -46,11 +46,12 @@ namespace Tyuiu.KokoulinIV.Sprint2.Task5.V9.Lib
                     res = "12";
                     break;
                 default:
-                    throw new Exception($"Значение месяца должно быть от 1 до 12. Значение{m}.");
+                    throw new Exception($"Значение месяца должно быть от 1 до 12. Значение{n}.");
                   
 
             }
-            m++;
+            m= m + 2;
+
             return ($"{m}.{res}");
         }
     }
