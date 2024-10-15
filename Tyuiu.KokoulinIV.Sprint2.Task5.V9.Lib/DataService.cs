@@ -3,10 +3,10 @@ namespace Tyuiu.KokoulinIV.Sprint2.Task5.V9.Lib
 {
     public class DataService : ISprint2Task5V9
     {
-        public string FindDateOfNextDay(int m, int n)
+        public string FindDateOfNextDay(int n, int m)
         {
             string res;
-            switch (m)
+            switch (n)
             {
                 case 1:
              
@@ -50,8 +50,8 @@ namespace Tyuiu.KokoulinIV.Sprint2.Task5.V9.Lib
                   
 
             }
-            n++;
-            return ($"{n}.{res}");
+            m++;
+            return ($"{m}.{res}");
         }
     }
 }
