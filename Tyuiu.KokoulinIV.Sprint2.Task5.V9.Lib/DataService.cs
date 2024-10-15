@@ -6,6 +6,7 @@ namespace Tyuiu.KokoulinIV.Sprint2.Task5.V9.Lib
         public string FindDateOfNextDay(int n, int m)
         {
             string res;
+            n = n - 1;
             switch (n)
             {
                 case 1:
