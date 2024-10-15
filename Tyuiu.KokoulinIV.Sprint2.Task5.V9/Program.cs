@@ -39,7 +39,7 @@ namespace Tyuiu.KokoulinIV.Sprint2.Task5.V9
             Console.WriteLine("***************************************************************************"); 
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("10.08");
+            Console.WriteLine(ds.FindDateOfNextDay(y, x));
             Console.ReadKey();
         }
     }

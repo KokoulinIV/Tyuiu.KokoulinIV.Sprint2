@@ -50,7 +50,7 @@ namespace Tyuiu.KokoulinIV.Sprint2.Task5.V9.Lib
                   
 
             }
-           
+            n++;
             return ($"{n}.{res}");
         }
     }
