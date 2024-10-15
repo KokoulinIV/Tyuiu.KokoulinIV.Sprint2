@@ -32,14 +32,14 @@ namespace Tyuiu.KokoulinIV.Sprint2.Task5.V9
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine(" Введите номер месяца");
-            int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(" Введите число");
             int y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(" Введите число");
+            int x = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************"); 
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine(ds.FindDateOfNextDay(x, y));
+            Console.WriteLine(ds.FindDateOfNextDay(y, x));
             Console.ReadKey();
         }
     }

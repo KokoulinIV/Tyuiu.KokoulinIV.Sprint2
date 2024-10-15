@@ -10,48 +10,48 @@ namespace Tyuiu.KokoulinIV.Sprint2.Task5.V9.Lib
             {
                 case 1:
              
-                    res = "Января";
+                    res = "01";
                     break;
                 case 2:
-                    res = "Февраля";
+                    res = "02";
                     break;
                 case 3:
-                    res = "Марта";
+                    res = "03";
                     break;
                 case 4:
-                    res = "Апреля";
+                    res = "04";
                     break;
                 case 5:
-                    res = "Мая";
+                    res = "05";
                     break;
                 case 6:
-                    res = "Июня";
+                    res = "06";
                     break;
                 case 7:
-                    res = "Июля";
+                    res = "07";
                     break;
                 case 8:
-                    res = "Августа";
+                    res = "08";
                     break;
                 case 9:
-                    res = "Сентября";
+                    res = "09";
                     break;
                 case 10:
-                    res = "Октября";
+                    res = "10";
                     break;
                 case 11:
-                    res = "Ноября";
+                    res = "11";
                     break;
                 case 12:
-                    res = "Декабря";
+                    res = "12";
                     break;
                 default:
                     throw new Exception($"Значение месяца должно быть от 1 до 12. Значение{m}.");
                   
 
             }
-
-            return ($"{n} {res}");
+           
+            return ($"{n}.{res}");
         }
     }
 }
